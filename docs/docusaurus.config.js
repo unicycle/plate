@@ -87,13 +87,14 @@ Object.keys(alias).forEach((key) => {
 module.exports = {
   title: customFields.title,
   tagline: customFields.tagline,
-  url: customFields.domain,
+  url: '',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'udecode', // Usually your GitHub org/user name.
-  projectName, // Usually your repo name.
+  organizationName: 'omawhite', // Usually your GitHub org/user name.
+  projectName: 'omawhite/plate', // Usually your repo name.
+  deploymentBranch: '',
   themes: ['@docusaurus/theme-live-codeblock'],
   customFields: { ...customFields },
   themeConfig: {
