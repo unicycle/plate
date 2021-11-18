@@ -87,14 +87,13 @@ Object.keys(alias).forEach((key) => {
 module.exports = {
   title: customFields.title,
   tagline: customFields.tagline,
-  url: '',
+  url: 'https://omawhite-plate-v6.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'omawhite', // Usually your GitHub org/user name.
   projectName: 'omawhite/plate', // Usually your repo name.
-  deploymentBranch: '',
   themes: ['@docusaurus/theme-live-codeblock'],
   customFields: { ...customFields },
   themeConfig: {
