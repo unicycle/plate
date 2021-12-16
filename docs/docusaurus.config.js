@@ -1,9 +1,9 @@
 const path = require('path');
 
-const githubOrgUrl = 'https://github.com/udecode';
+const githubOrgUrl = 'https://unicycle.github.io';
 const projectName = 'plate';
 const githubUrl = `${githubOrgUrl}/${projectName}`;
-const domain = 'https://plate.udecode.io';
+const domain = 'https://unicycle.github.io';
 const domainExamples = '/docs/examples/introduction';
 const domainAPI = 'https://plate-api.udecode.io/globals.html';
 const npmOrgUrl = 'https://www.npmjs.com/package/@udecode';
@@ -87,7 +87,7 @@ Object.keys(alias).forEach((key) => {
 module.exports = {
   title: customFields.title,
   tagline: customFields.tagline,
-  url: 'https://omawhite-plate-v6.netlify.app/',
+  url: 'https://unicycle.github.io/plate/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
